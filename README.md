@@ -17,7 +17,7 @@
 本程序提供了运用edge和chrome的两种信息获取方法，可自行根据所用浏览器进行选择。  
 具体操作步骤如下：  
 第一、下载浏览器对应版本的webdriver。  
-第二、建立一个新的文件夹（使用edge的将文件夹命名为edge，使用chrome的将文件夹命名为chrome），并把下载好的webdriver放入其中。
-![图片示例](https://github.com/Fissify/Message-Board/pic/1.png)
+第二、建立一个新的文件夹（使用edge的将文件夹命名为edge，使用chrome的将文件夹命名为chrome），并把下载好的webdriver放入其中。  
+edge浏览器的webdriver下载地址：
 
 
