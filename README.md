@@ -98,3 +98,8 @@ chrome浏览器的webderiver下载地址：http://chromedriver.storage.googleapi
 
 
 3.2仓库已上传原始代码[原始代码](./message-board.py)，有需求可自行下载后进行优化。
+
+
+3.3根据操作系统与所用浏览器类型，本仓库提供了四个程序。  
+windows用户请下载:[edge浏览器和windows系统](./winedge.zip)和[chrome浏览器和windows系统](./winchrome.zip)
+mac用户请下载:[edge浏览器和mac系统](/.macedge.zip)和[chrome浏览器和mac系统](./macchrome.zip)
