@@ -14,12 +14,13 @@
 
 ### 1.使用前的环境配置
   1.1由于本程序是基于python语言中的selenium模块进行编写的，因此在运行时需要借助webdriver。
-本程序提供了运用edge和chrome的两种信息获取方法，可自行根据所用浏览器进行选择。  
+本程序提供了运用edge、chrome、firefox的三种信息获取方法，可自行根据所用浏览器进行选择。  
 具体操作步骤如下：  
 第一、下载浏览器对应版本的webdriver。  
-第二、建立一个新的文件夹（使用edge的将文件夹命名为edge，使用chrome的将文件夹命名为chrome），并把下载好的webdriver放入其中（edge浏览器的叫msedgedriver，chrome浏览器的叫chromedriver）。  
+第二、建立一个新的文件夹（使用edge的将文件夹命名为edge，使用chrome的将文件夹命名为chrome，使用firefox的将文件命名为firefox），并把下载好的webdriver放入其中（edge浏览器的叫msedgedriver，chrome浏览器的叫chromedriver，firefox浏览器的叫geckodriver）。  
 edge浏览器的webdriver下载地址：https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver  
-chrome浏览器的webderiver下载地址：http://chromedriver.storage.googleapis.com/index.html  
+chrome浏览器的webdriver下载地址：http://chromedriver.storage.googleapis.com/index.html  
+Firefox浏览器的webdriver下载地址：https://github.com/mozilla/geckodriver/releases  
 第三、解压文件后运行dist中的人民网领导留言板  
 
 ### 2.数据抓取内容与存储
@@ -94,13 +95,13 @@ chrome浏览器的webderiver下载地址：http://chromedriver.storage.googleapi
 
 
 ### 3.程序耗时与优化
-3.1为了保证运行的稳定性，本程序在编写过程中加入了一定数量的sleep语法且为单线程，数据抓取速度约为1000条/小时。
+3.1在保证运行的稳定性与在不影响人民网正常登陆的情况下，本程序在编写过程中加入了一定数量的sleep语法且为单线程，数据抓取速度约为1000条/小时。如有速度要求，可同时edge版本、chrome版本、firefox版本的程序，手动进行多线程爬取。
 
 
 3.2仓库已上传原始代码[原始代码](./message-board.py)，有需求可自行下载并进行优化。类似如留言板的动态网页均可以本代码为模板，进行适当调整。
 
 
-3.3根据操作系统与所用浏览器类型，本仓库提供了四个程序。  
+3.3根据操作系统与所用浏览器类型，本仓库提供了六个程序。  
 windows用户请下载:[edge浏览器和windows系统](./winedge.zip)和[chrome浏览器和windows系统](./winchrome.zip)  
 mac用户请下载:[edge浏览器和mac系统](/.macedge.zip)和[chrome浏览器和mac系统](./macchrome.zip)
 
@@ -108,5 +109,5 @@ mac用户请下载:[edge浏览器和mac系统](/.macedge.zip)和[chrome浏览器
 
 ## 写在最后
 当程序运行出现问题，大概率为网页元素无法查找而导致的信息报错，将程序关闭后重新运行即可解决。  
-程序开发与代码编写均由本人独立完成，大概用了3天，写了1000行。最初目的是方便论文写作和数据分析，减少不必要的复制粘贴的过程。  
+程序开发与代码编写均由本人独立完成，大概用了3天，写了1000行。本文编写该是方便论文写作和数据分析，减少不必要的复制粘贴的过程。  
 若本程序有帮助到您，我将深感荣幸。最后，祝您使用愉快:blush:。
