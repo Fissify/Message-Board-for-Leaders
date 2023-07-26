@@ -102,12 +102,13 @@ Firefox浏览器的webdriver下载地址：https://github.com/mozilla/geckodrive
 
 
 3.3根据操作系统与所用浏览器类型，本仓库提供了六个程序。  
-windows用户请下载:[edge浏览器和windows系统](./winedge.zip)和[chrome浏览器和windows系统](./winchrome.zip)  
-mac用户请下载:[edge浏览器和mac系统](/.macedge.zip)和[chrome浏览器和mac系统](./macchrome.zip)
+windows用户请下载:[edge浏览器](./winedge.zip)、[chrome浏览器](./winchrome.zip)、[firefox浏览器](./winfirefox.zip)  
+mac用户请下载:[edge浏览器](/.macedge.zip)、[chrome浏览器](./macchrome.zip)、[firefox浏览器](./macfirefox.zip)
 
 ****
 
 ## 写在最后
 当程序运行出现问题，大概率为网页元素无法查找而导致的信息报错，将程序关闭后重新运行即可解决。  
-程序开发与代码编写均由本人独立完成，大概用了3天，写了1000行。本文编写该是方便论文写作和数据分析，减少不必要的复制粘贴的过程。  
-若本程序有帮助到您，我将深感荣幸。最后，祝您使用愉快:blush:。
+程序开发与代码编写均由本人独立完成，大概用了3天，写了1000行。本程序最主要的目的是方便论文写作和数据分析，减少不必要的复制粘贴的过程，若有帮助到您我将深感荣幸。  
+再次声明：本程序仅用于学习和科研等非商业活动，不能用于谋利等非法行为，如有违反后果自负。  
+最后，祝您使用愉快:blush:。
