@@ -18,6 +18,6 @@
 具体操作步骤如下：  
 第一、下载浏览器对应版本的webdriver。  
 第二、建立一个新的文件夹（使用edge的将文件夹命名为edge，使用chrome的将文件夹命名为chrome），并把下载好的webdriver放入其中。
-！[示例](r:"yuyang/download/iShot2023-07-26 13.01.29")
+！[示例]()
 
 
