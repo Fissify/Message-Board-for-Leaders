@@ -18,7 +18,7 @@
 具体操作步骤如下：  
 第一、下载浏览器对应版本的webdriver。  
 第二、建立一个新的文件夹（使用edge的将文件夹命名为edge，使用chrome的将文件夹命名为chrome），并把下载好的webdriver放入其中。  
-edge浏览器的webdriver下载地址：https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver
+edge浏览器的webdriver下载地址：https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver  
 chrome浏览器的webderiver下载地址：http://chromedriver.storage.googleapis.com/index.html
 
 
