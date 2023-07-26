@@ -97,4 +97,4 @@ chrome浏览器的webderiver下载地址：http://chromedriver.storage.googleapi
 3.1为了保证运行的稳定性，本程序在编写过程中加入了一定数量的sleep语法，数据抓取速度约为1000条/小时。
 
 
-3.2仓库已上传原始代码[原始代码](/)，有需求可自行下载后进行优化。
+3.2仓库已上传原始代码[原始代码](/message-board.py)，有需求可自行下载后进行优化。
