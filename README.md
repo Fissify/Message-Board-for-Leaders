@@ -101,7 +101,7 @@ Firefox浏览器的webdriver下载地址：https://github.com/mozilla/geckodrive
 3.2仓库已上传[原始代码](./message-board.py)，如有需求可自行下载与优化。类似的动态网页均能以本代码为模板，根据实际情况自行调整。
 
 
-3.3根据操作系统与所用浏览器类型，本仓库提供了六个程序。  
+3.3考虑到操作系统与所用浏览器的不同，本仓库提供了六个程序。  
 windows用户请下载:[edge浏览器](./winedge.zip)、[chrome浏览器](./winchrome.zip)、[firefox浏览器](./winfirefox.zip)  
 mac用户请下载:[edge浏览器](/.macedge.zip)、[chrome浏览器](./macchrome.zip)、[firefox浏览器](./macfirefox.zip)
 
